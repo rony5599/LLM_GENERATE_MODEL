@@ -1,0 +1,13 @@
+data_dir: academic
+output_dir: artifacts
+model_name: distilbert-base-uncased
+max_length: 256
+train_size: 0.8
+seed: 42
+training:
+  epochs: 4
+  learning_rate: 2e-5
+  train_batch_size: 8
+  eval_batch_size: 8
+  weight_decay: 0.01
+  warmup_ratio: 0.1
